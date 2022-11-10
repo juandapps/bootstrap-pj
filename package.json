@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "bootstrap": "5.2.2",
+    "sass": "^1.56.1"
+  },
+  "name": "bootstrap-pj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:juandapps/bootstrap-pj.git",
+  "license": "MIT",
+  "scripts": {
+    "scss": "sass --watch input.scss:./public/stylesheets/output.css"
+  }
+}
